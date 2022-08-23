@@ -23,6 +23,8 @@ scroll_bottom = function() {
   }
 }
 
+
+
 $(document).on('turbolinks:load', function(){
     $('.ui.dropdown').dropdown();
     $('.message .close').on('click', function() {
@@ -30,3 +32,4 @@ $(document).on('turbolinks:load', function(){
   });
   scroll_bottom();
 })
+
