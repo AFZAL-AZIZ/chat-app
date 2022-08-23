@@ -11,4 +11,3 @@ Message.create(body: "just message", user: User.fourth)
 Message.create(body: "order", user: User.fifth)
 Message.create(body: "hello bots", user: User.first)
 Message.create(body: "hello", user: User.third)
-
